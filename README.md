@@ -6,6 +6,7 @@
     class="minecraft-gif"
   />
 </p>
+
 ## 👋 Hi, I'm Sameer
 
 🎓 Computer Science Engineering student  
