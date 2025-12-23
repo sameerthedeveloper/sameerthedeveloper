@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/26xBwdIuRJiAIqHwA/giphy.gif" width="420" alt="Minecraft GIF">
+
+  <img
+    src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif"
+    alt="Minecraft Animation"
+    class="minecraft-gif"
+  />
 </p>
 ## 👋 Hi, I'm Sameer
 
