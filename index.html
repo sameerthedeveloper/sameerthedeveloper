@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Solo Web Developer Agency</title>
+
+<!-- jsPDF CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<style>
+/* -----------------------------
+   GLOBAL STYLES
+----------------------------- */
+:root {
+  --primary: #0a84ff;
+  --dark: #1c1c1e;
+  --gray: #6e6e73;
+  --light: #f5f5f7;
+  --border: #e5e5ea;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--gray);
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 22px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* -----------------------------
+   HERO
+----------------------------- */
+.hero {
+  background: linear-gradient(180deg, #fff, #f2f2f7);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* -----------------------------
+   SERVICES
+----------------------------- */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+/* -----------------------------
+   PRICING
+----------------------------- */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.plan {
+  background: #fff;
+  border-radius: 18px;
+  padding: 30px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.plan.selected {
+  border-color: var(--primary);
+}
+
+.plan h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* -----------------------------
+   PROPOSAL BUILDER
+----------------------------- */
+.form-grid {
+  display: grid;
+  gap: 15px;
+}
+
+input, select {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+/* -----------------------------
+   FOOTER
+----------------------------- */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--gray);
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Professional Websites for Serious Businesses</h1>
+    <p>I help founders and companies launch fast, modern, high-converting websites with predictable pricing.</p>
+    <br>
+    <a href="#pricing" class="btn">View Plans</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <div class="container">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service-card">Custom Website Design</div>
+      <div class="service-card">Responsive Development</div>
+      <div class="service-card">Performance Optimization</div>
+      <div class="service-card">Ongoing Maintenance</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <h2>Pricing Plans</h2>
+
+    <div class="pricing-grid">
+      <div class="plan" onclick="selectPlan('Starter',500,50)">
+        <h3>Starter Showcase</h3>
+        <div class="price">$500</div>
+        <p>Setup + $50/month</p>
+        <ul>
+          <li>5 pages</li>
+          <li>Standard Hosting</li>
+          <li>Email Support</li>
+        </ul>
+      </div>
+
+      <div class="plan selected" onclick="selectPlan('Professional',900,80)">
+        <h3>Professional Showcase ⭐</h3>
+        <div class="price">$900</div>
+        <p>Setup + $80/month</p>
+        <ul>
+          <li>10 pages</li>
+          <li>Pro Hosting</li>
+          <li>Priority Support</li>
+        </ul>
+      </div>
+
+      <div class="plan" onclick="selectPlan('Enterprise',1500,150)">
+        <h3>Enterprise Showcase</h3>
+        <div class="price">$1500</div>
+        <p>Setup + $150/month</p>
+        <ul>
+          <li>Unlimited pages</li>
+          <li>Dedicated Hosting</li>
+          <li>24/7 Support</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="toggle">
+      <label>
+        <input type="radio" name="maintenance" value="monthly" checked onchange="updateTotal()"> Monthly
+      </label>
+      <label>
+        <input type="radio" name="maintenance" value="weekly" onchange="updateTotal()"> Weekly
+      </label>
+    </div>
+
+    <div class="summary">
+      <strong>Total Cost:</strong>
+      <span id="total">$980</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROPOSAL BUILDER -->
+<section>
+  <div class="container">
+    <h2>Generate Proposal</h2>
+
+    <div class="form-grid">
+      <input id="clientName" placeholder="Client Name">
+      <input id="businessName" placeholder="Business Name">
+      <input id="email" placeholder="Email">
+
+      <input id="selectedPlan" disabled>
+      <input id="maintenanceType" disabled>
+      <input id="finalPrice" disabled>
+
+      <button class="btn" onclick="generatePDF()">Generate PDF Proposal</button>
+      <button class="btn" onclick="sendEmail()">Send via Email</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Your Name — Solo Web Developer
+</footer>
+
+<script>
+/* -----------------------------
+   STATE
+----------------------------- */
+let planName = "Professional";
+let setupPrice = 900;
+let maintenance = 80;
+
+/* -----------------------------
+   PLAN SELECTION
+----------------------------- */
+function selectPlan(name, setup, monthly) {
+  document.querySelectorAll('.plan').forEach(p => p.classList.remove('selected'));
+  event.currentTarget.classList.add('selected');
+
+  planName = name;
+  setupPrice = setup;
+  maintenance = monthly;
+
+  updateTotal();
+}
+
+/* -----------------------------
+   PRICE CALCULATION
+----------------------------- */
+function updateTotal() {
+  const type = document.querySelector('input[name="maintenance"]:checked').value;
+  const recurring = type === "weekly" ? maintenance * 4 : maintenance;
+  const total = setupPrice + recurring;
+
+  document.getElementById("total").innerText = `$${total}`;
+  document.getElementById("selectedPlan").value = planName;
+  document.getElementById("maintenanceType").value = type;
+  document.getElementById("finalPrice").value = `$${total}`;
+}
+
+/* -----------------------------
+   PDF GENERATION
+----------------------------- */
+function generatePDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  doc.setFontSize(16);
+  doc.text("Web Development Proposal", 20, 20);
+
+  doc.setFontSize(12);
+  doc.text(`Client: ${clientName.value}`, 20, 40);
+  doc.text(`Business: ${businessName.value}`, 20, 50);
+  doc.text(`Email: ${email.value}`, 20, 60);
+
+  doc.text(`Plan: ${planName}`, 20, 80);
+  doc.text(`Setup Cost: $${setupPrice}`, 20, 90);
+  doc.text(`Maintenance: $${maintenance}`, 20, 100);
+  doc.text(`Total: ${finalPrice.value}`, 20, 110);
+
+  doc.text(`Date: ${new Date().toLocaleDateString()}`, 20, 130);
+  doc.text("Developer: Your Name", 20, 140);
+
+  doc.save("proposal.pdf");
+}
+
+/* -----------------------------
+   EMAIL
+----------------------------- */
+function sendEmail() {
+  const subject = encodeURIComponent("Website Development Proposal");
+  const body = encodeURIComponent(
+    `Hello ${clientName.value},\n\nPlease find your website proposal attached.\n\nPlan: ${planName}\nTotal: ${finalPrice.value}\n\nBest regards,\nYour Name`
+  );
+
+  window.location.href = `mailto:${email.value}?subject=${subject}&body=${body}`;
+}
+
+updateTotal();
+</script>
+
+</body>
+</html>
