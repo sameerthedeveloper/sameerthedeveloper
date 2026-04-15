@@ -9,6 +9,164 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 <style>
+
+  :root{
+  --bg:#ffffff;
+  --text:#1d1d1f;
+  --muted:#6e6e73;
+  --border:#e5e5ea;
+  --accent:#0071e3;
+  --card-bg:#ffffff;
+}
+
+/* Reset */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Layout */
+section{
+  padding:100px 20px;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+
+/* Typography */
+h1{
+  font-size:3.2rem;
+  font-weight:600;
+  letter-spacing:-0.02em;
+}
+
+h2{
+  font-size:2.4rem;
+  margin-bottom:25px;
+  letter-spacing:-0.01em;
+}
+
+h3{
+  font-size:1.25rem;
+  margin-bottom:10px;
+}
+
+p{
+  color:var(--muted);
+  font-size:1.08rem;
+  max-width:700px;
+}
+
+/* Buttons */
+.btn{
+  display:inline-block;
+  padding:14px 28px;
+  background:var(--accent);
+  color:#fff;
+  border-radius:999px;
+  text-decoration:none;
+  font-weight:500;
+  border:none;
+  cursor:pointer;
+  transition:all .25s ease;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* Hero */
+.hero{
+  text-align:center;
+  background:linear-gradient(180deg,#ffffff,#f5f5f7);
+}
+
+.hero p{
+  margin:15px auto 0;
+}
+
+/* Cards */
+.services, .pricing, .maintenance{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:28px;
+  margin-top:40px;
+}
+
+.card{
+  background:var(--card-bg);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:30px;
+  transition:all .3s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+/* Pricing */
+.plan.featured{
+  border:2px solid var(--accent);
+  transform:scale(1.03);
+}
+
+.price{
+  font-size:2.2rem;
+  font-weight:600;
+  margin:15px 0;
+}
+
+/* Lists */
+ul{
+  padding-left:18px;
+  color:var(--muted);
+  line-height:1.8;
+}
+
+/* Forms */
+input, select{
+  width:100%;
+  padding:14px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  margin-bottom:14px;
+  font-size:1rem;
+  transition:.2s;
+}
+
+input:focus, select:focus{
+  outline:none;
+  border-color:var(--accent);
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:50px 20px;
+  border-top:1px solid var(--border);
+  color:var(--muted);
+  font-size:0.95rem;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  h1{font-size:2.4rem;}
+  h2{font-size:2rem;}
+}
 :root{
   --bg:#ffffff;
   --text:#1d1d1f;
