@@ -50,7 +50,7 @@ Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily 
 
 ## Connect
 
-GitHub — [YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+GitHub — [sameerthedeveloper](https://github.com/sameerthedeveloper)
 Email — YOUR_EMAIL
 Portfolio — YOUR_PORTFOLIO_URL
 
