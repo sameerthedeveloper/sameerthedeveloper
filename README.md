@@ -12,9 +12,9 @@
 
 <p>
   <a href="https://github.com/YOUR_USERNAME">
-    <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=blue" alt="profile views"/>
+    <img src="https://komarev.com/ghpvc/?username=sameerthedeveloper&style=flat-square&color=blue" alt="profile views"/>
   </a>
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=flat-square&color=blue" alt="followers"/>
+  <img src="https://img.shields.io/github/followers/sameerthedeveloper?style=flat-square&color=blue" alt="followers"/>
 </p>
 
 </div>
