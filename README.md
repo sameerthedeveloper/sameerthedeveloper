@@ -1,122 +1,99 @@
-<!-- Container -->
-<div align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: auto; line-height: 1.6;">
+<div align="center">
 
-<!-- Banner -->
-<img 
-  src="https://user-images.githubusercontent.com/74038190/212897065-cc4c0d3b-6c39-4a32-bd9a-1f61f7a7e61d.gif" 
-  alt="Coding at night"
-  width="100%" 
-/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
-<br/><br/>
+<h1>Assalamu Alaikum, I'm Sameer 👋</h1>
 
-<!-- Name -->
-<h1 style="margin-bottom: 5px;">Assalamu Alaikum, I'm Sameer</h1>
-
-<p style="margin-top: 0; font-size: 16px; color: #555;">
-  🎓 Computer Science Engineering Student &nbsp;|&nbsp;
-  💻 Frontend-Focused Developer &nbsp;|&nbsp;
-  📍 Chennai, India
+<p>
+🎓 CSE Student (B.S. Abdur Rahman Crescent Institute) &nbsp;|&nbsp;
+💻 Frontend-Focused Full Stack Dev &nbsp;|&nbsp;
+📍 Chennai, India
 </p>
 
-<hr style="margin: 30px 0;"/>
-
-<!-- About -->
-<h2 align="left">🧠 About Me</h2>
-
-<p align="left">
-I build <b>clean, responsive, and user-friendly web applications</b> with a strong focus on usability and real-world impact.
+<p>
+  <a href="https://github.com/YOUR_USERNAME">
+    <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=blue" alt="profile views"/>
+  </a>
+  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=flat-square&color=blue" alt="followers"/>
 </p>
 
-<p align="left">
-My approach is centered on <b>simplicity, performance, and ethical development</b>. I continuously improve my skills by building practical projects and learning modern technologies step by step.
+</div>
+
+---
+
+### 🧠 About Me
+
+Building **clean, fast, production-ready web apps** — Next.js/React frontend, Node/Supabase backend.
+Currently shipping a live client project (luxury audio brand site) and a local-first AI stock analysis tool for Indian markets.
+
+- 🔭 Working on: **JARVIS-style local voice assistant** (Electron + Vosk + Ollama + Piper TTS)
+- 🌱 Learning: System design, DBMS internals, OS fundamentals
+- 🎯 Goal: Web dev internship (remote / Chennai)
+- ⚡ Principle: No tutorial dependency. Build → break → fix → ship.
+
+---
+
+### 🛠️ Tech Stack
+
+**Frontend**
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,vite" />
 </p>
 
-<hr/>
-
-<!-- What I Do -->
-<h2 align="left">🚀 What I Do</h2>
-
-<ul align="left">
-  <li>Develop modern UI using React, HTML, CSS, and JavaScript</li>
-  <li>Design responsive and accessible interfaces</li>
-  <li>Integrate APIs and handle real-world data</li>
-  <li>Learn backend development with Node.js and databases</li>
-  <li>Write clean, maintainable, and scalable code</li>
-</ul>
-
-<hr/>
-
-<!-- Tech Stack -->
-<h2 align="left">🛠️ Tech Stack</h2>
-
-<h3 align="left">Frontend</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind" />
+**Backend & Data**
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,supabase" />
 </p>
 
-<h3 align="left">Backend (Learning)</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+**Tools & Infra**
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,linux,docker,vscode,postman" />
 </p>
 
-<h3 align="left">Tools</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman" />
+---
+
+### 🧩 Featured Projects
+
+| Project | Stack | Status |
+|---|---|---|
+| **CinemaFocus.in** | Next.js, Supabase, GSAP | Live (client) |
+| **AI Stock Analyzer** | Next.js 15, SQLite, Puppeteer, Gemini/Groq | In progress (halal-equity filter) |
+| **HomeLab Control** | React, MUI, Tailwind, JWT, xterm.js | Active |
+| **LANCast** | Java, Ryu SDN, Mininet, Next.js SSE | Academic build |
+| **Desktop JARVIS** | Electron, Vosk, Ollama, Piper TTS | In progress |
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" width="48%"/>
 </p>
 
-<hr/>
-
-<!-- Current Focus -->
-<h2 align="left">📈 Current Focus</h2>
-
-<ul align="left">
-  <li>Improving frontend architecture and performance</li>
-  <li>Building real-world full stack applications</li>
-  <li>Strengthening backend and database fundamentals</li>
-  <li>Learning system design basics</li>
-</ul>
-
-<hr/>
-
-<!-- Projects -->
-<h2 align="left">🧩 Projects</h2>
-
-<p align="left">
-I focus on building practical projects that solve real problems and strengthen my development skills.
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
 </p>
 
-<p align="left">
-<b>Upcoming:</b> Production-level projects with live demos and clean architecture.
+---
+
+### 🤝 Values
+
+- Honest, clean, maintainable code
+- Build useful things, not vanity projects
+- Halal-first decisions in fintech/dev work
+- Daily commits. Consistency over shortcuts.
+
+---
+
+### 📫 Connect
+
+<p>
+<a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 </p>
 
-<hr/>
-
-<!-- Values -->
-<h2 align="left">🤝 Values</h2>
-
-<ul align="left">
-  <li>Write honest and clean code</li>
-  <li>Build useful and meaningful applications</li>
-  <li>Follow ethical and responsible development practices</li>
-  <li>Continuous learning and self-improvement</li>
-</ul>
-
-<hr/>
-
-<!-- Contact -->
-<h2 align="left">📫 Connect</h2>
-
-<p align="left">
-  GitHub: <a href="https://github.com/YOUR_USERNAME">YOUR_USERNAME</a><br/>
-  Portfolio: Coming Soon
-</p>
-
-<hr style="margin: 40px 0;"/>
-
-<!-- Footer -->
-<p style="color: #777; font-size: 14px;">
-  Consistency over shortcuts. Focus on real growth.
-</p>
+<sub>Knowledge is amanah. Use it right.</sub>
 
 </div>
