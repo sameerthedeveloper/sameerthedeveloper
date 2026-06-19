@@ -1,99 +1,59 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+# Sameer
 
-<h1>Assalamu Alaikum, I'm Sameer 👋</h1>
-
-<p>
-🎓 CSE Student (B.S. Abdur Rahman Crescent Institute) &nbsp;|&nbsp;
-💻 Frontend-Focused Full Stack Dev &nbsp;|&nbsp;
-📍 Chennai, India
-</p>
-
-<p>
-  <a href="https://github.com/sameerthedeveloper">
-    <img src="https://komarev.com/ghpvc/?username=sameerthedeveloper&style=flat-square&color=blue" alt="profile views"/>
-  </a>
-  <img src="https://img.shields.io/github/followers/sameerthedeveloper?style=flat-square&color=blue" alt="followers"/>
-</p>
+CSE Student · Frontend-Focused Full Stack Dev · Chennai, India
 
 </div>
 
----
+<br/>
 
-### 🧠 About Me
+## About
 
-Building **clean, fast, production-ready web apps** — Next.js/React frontend, Node/Supabase backend.
-Currently shipping a live client project (luxury audio brand site) and a local-first AI stock analysis tool for Indian markets.
+Building clean, fast, production-ready web apps — Next.js/React frontend, Node/Supabase backend.
 
-- 🔭 Working on: **JARVIS-style local voice assistant** (Electron + Vosk + Ollama + Piper TTS)
-- 🌱 Learning: System design, DBMS internals, OS fundamentals
-- 🎯 Goal: Web dev internship (remote / Chennai)
-- ⚡ Principle: No tutorial dependency. Build → break → fix → ship.
+Currently: live client project (luxury audio brand site) + local-first AI stock analysis tool for Indian markets.
 
----
+- Working on — JARVIS-style local voice assistant (Electron, Vosk, Ollama, Piper TTS)
+- Learning — system design, DBMS internals, OS fundamentals
+- Goal — web dev internship (remote / Chennai)
 
-### 🛠️ Tech Stack
+<br/>
 
-**Frontend**
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,vite" />
-</p>
+## Stack
 
-**Backend & Data**
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,supabase" />
-</p>
+**Frontend** — HTML, CSS, JavaScript, React, Next.js, Tailwind, Vite
 
-**Tools & Infra**
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,linux,docker,vscode,postman" />
-</p>
+**Backend** — Node.js, Express, MongoDB, PostgreSQL, Supabase
 
----
+**Tools** — Git, GitHub, Linux, Docker, VS Code, Postman
 
-### 🧩 Featured Projects
+<br/>
+
+## Projects
 
 | Project | Stack | Status |
 |---|---|---|
-| **CinemaFocus.in** | Next.js, Supabase, GSAP | Live (client) |
-| **AI Stock Analyzer** | Next.js 15, SQLite, Puppeteer, Gemini/Groq | In progress (halal-equity filter) |
-| **HomeLab Control** | React, MUI, Tailwind, JWT, xterm.js | Active |
-| **LANCast** | Java, Ryu SDN, Mininet, Next.js SSE | Academic build |
-| **Desktop JARVIS** | Electron, Vosk, Ollama, Piper TTS | In progress |
+| CinemaFocus.in | Next.js, Supabase, GSAP | Live (client) |
+| AI Stock Analyzer | Next.js 15, SQLite, Puppeteer, Gemini/Groq | In progress |
+| HomeLab Control | React, MUI, Tailwind, JWT, xterm.js | Active |
+| LANCast | Java, Ryu SDN, Mininet, Next.js SSE | Academic |
+| Desktop JARVIS | Electron, Vosk, Ollama, Piper TTS | In progress |
 
----
+<br/>
 
-### 📊 GitHub Stats
+## Values
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=sameerthedeveloper&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sameerthedeveloper&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
+Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily commits.
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerthedeveloper&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
+<br/>
 
----
+## Connect
 
-### 🤝 Values
+GitHub — [YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+Email — YOUR_EMAIL
+Portfolio — YOUR_PORTFOLIO_URL
 
-- Honest, clean, maintainable code
-- Build useful things, not vanity projects
-- Halal-first decisions in fintech/dev work
-- Daily commits. Consistency over shortcuts.
-
----
-
-### 📫 Connect
-
-<p>
-<a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-</p>
+<br/>
 
 <sub>Knowledge is amanah. Use it right.</sub>
-
-</div>
