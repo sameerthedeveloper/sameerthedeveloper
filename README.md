@@ -1,8 +1,14 @@
 <div align="center">
 
-# Sameer
+<img src="https://user-images.githubusercontent.com/74038190/213760687-21ac0bdc-1bbc-4e9b-9bf3-c8a9e8e9bb91.gif" width="100%"/>
 
-CSE Student · Frontend-Focused Full Stack Dev · Chennai, India
+<br/>
+
+# S. Mohamed Sameer
+
+Frontend-Focused Full Stack Developer · React & JavaScript · Chennai, India
+
+<sub>Busy in being Free</sub>
 
 </div>
 
@@ -10,9 +16,7 @@ CSE Student · Frontend-Focused Full Stack Dev · Chennai, India
 
 ## About
 
-Building clean, fast, production-ready web apps — Next.js/React frontend, Node/Supabase backend.
-
-Currently: live client project (luxury audio brand site) + local-first AI stock analysis tool for Indian markets.
+Building clean, fast, production-ready web apps — React/Next.js frontend, Firebase/Supabase backend.
 
 - Working on — JARVIS-style local voice assistant (Electron, Vosk, Ollama, Piper TTS)
 - Learning — system design, DBMS internals, OS fundamentals
@@ -22,23 +26,34 @@ Currently: live client project (luxury audio brand site) + local-first AI stock 
 
 ## Stack
 
-**Frontend** — HTML, CSS, JavaScript, React, Next.js, Tailwind, Vite
-
-**Backend** — Node.js, Express, MongoDB, PostgreSQL, Supabase
-
-**Tools** — Git, GitHub, Linux, Docker, VS Code, Postman
+`HTML` `CSS` `JavaScript` `TypeScript` `React` `Tailwind` `Next.js` `Firebase` `Supabase` `Python` `FastAPI`
 
 <br/>
 
-## Projects
+## Pinned Work
 
-| Project | Stack | Status |
+| Project | Stack | Notes |
 |---|---|---|
-| CinemaFocus.in | Next.js, Supabase, GSAP | Live (client) |
-| AI Stock Analyzer | Next.js 15, SQLite, Puppeteer, Gemini/Groq | In progress |
-| HomeLab Control | React, MUI, Tailwind, JWT, xterm.js | Active |
-| LANCast | Java, Ryu SDN, Mininet, Next.js SSE | Academic |
-| Desktop JARVIS | Electron, Vosk, Ollama, Piper TTS | In progress |
+| [cinemafocus](https://github.com/sameerthedeveloper/cinemafocus) | JavaScript, Supabase, GSAP | Live client site — luxury audio brand |
+| [FlowLite](https://github.com/sameerthedeveloper/FlowLite) | JavaScript | n8n/Zapier-style automation builder (APIs, AI, webhooks) |
+| [project_classroom](https://github.com/sameerthedeveloper/project_classroom) | TypeScript | Offline LAN screen-share system for classrooms, no internet needed |
+| [OpenSecondDisplay](https://github.com/sameerthedeveloper/OpenSecondDisplay) | Python, FFmpeg | Stream macOS desktop to Linux device over LAN — MIT licensed |
+| [nawfalirfan](https://github.com/sameerthedeveloper/nawfalirfan) | FastAPI, JavaScript | E-commerce platform — FastAPI backend, vanilla JS frontend |
+| [Quran-App](https://github.com/sameerthedeveloper/Quran-App) | JavaScript | — |
+| [dexas-ems](https://github.com/sameerthedeveloper/dexas-ems) | TypeScript | — |
+
+<br/>
+
+## GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=sameerthedeveloper&show_icons=true&theme=minimal&hide_border=true&hide_title=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sameerthedeveloper&theme=minimal&hide_border=true" width="48%"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerthedeveloper&layout=compact&theme=minimal&hide_border=true&hide_title=true" width="40%"/>
+</p>
 
 <br/>
 
@@ -51,9 +66,11 @@ Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily 
 ## Connect
 
 GitHub — [sameerthedeveloper](https://github.com/sameerthedeveloper)
-Email — YOUR_EMAIL
-Portfolio — YOUR_PORTFOLIO_URL
+LinkedIn — [in/mdsameers](https://linkedin.com/in/mdsameers)
+Portfolio — [md.sameer.dev](https://md.sameer.dev)
 
 <br/>
 
+<div align="center">
 <sub>Knowledge is amanah. Use it right.</sub>
+</div>
