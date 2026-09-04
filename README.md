@@ -1,14 +1,14 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=200&section=header&text=S.%20Mohamed%20Sameer&fontSize=42&fontColor=E2E8F0&fontAlignY=38&desc=Frontend-Focused%20Full%20Stack%20Developer&descAlignY=58&descSize=18&descColor=94A3B8&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F0E4DA,100:E8D4C4&height=200&section=header&text=Mohamed%20Sameer&fontSize=42&fontColor=3D3628&fontAlignY=38&desc=Frontend-focused%20Full%20Stack%20Developer&descAlignY=58&descSize=18&descColor=C8825A&animation=fadeIn"/>
 <br/>
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Built+to+work+when+the+network+doesn't;React+%2B+Next.js+%E2%80%A2+Chennai%2C+India;Offline-first+PWAs+%E2%80%A2+Accessibility-first+UI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=C8825A&center=true&vCenter=true&width=560&lines=Built+to+work+when+the+network+doesn't;React+%2B+Next.js+%E2%80%A2+Chennai%2C+India;Offline-first+PWAs+%E2%80%A2+Accessibility-first+UI" alt="Typing SVG" />
 </a>
 <br/><br/>
-<a href="https://mohamedsameer.tech"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=38BDF8" /></a>
-<a href="https://linkedin.com/in/mdsameers"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=38BDF8" /></a>
-<a href="https://github.com/sameerthedeveloper"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=38BDF8" /></a>
-<a href="mailto:mohamedsameer.s.2007@gmail.com"><img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8" /></a>
+<a href="https://mohamedsameer.tech"><img src="https://img.shields.io/badge/Portfolio-F0E4DA?style=for-the-badge&logo=vercel&logoColor=C8825A" /></a>
+<a href="https://linkedin.com/in/mdsameers"><img src="https://img.shields.io/badge/LinkedIn-F0E4DA?style=for-the-badge&logo=linkedin&logoColor=C8825A" /></a>
+<a href="https://github.com/sameerthedeveloper"><img src="https://img.shields.io/badge/GitHub-F0E4DA?style=for-the-badge&logo=github&logoColor=C8825A" /></a>
+<a href="mailto:mohamedsameer.s.2007@gmail.com"><img src="https://img.shields.io/badge/Email-F0E4DA?style=for-the-badge&logo=gmail&logoColor=C8825A" /></a>
 </div>
 <br/>
 
@@ -34,7 +34,7 @@
 
 ## ⟡ Stack
 <div align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,firebase,supabase,py,fastapi,git&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,firebase,supabase,py,fastapi,git&theme=light" />
 </div>
 <br/>
 
@@ -151,14 +151,14 @@ Quran reading & reference app
 
 ## ⟡ GitHub Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=sameerthedeveloper&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8&count_private=true" width="48%"/>
-<img src="https://streak-stats.demolab.com?user=sameerthedeveloper&theme=dark&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sameerthedeveloper&show_icons=true&theme=graywhite&hide_border=true&bg_color=F0E4DA&title_color=C8825A&icon_color=C8825A&text_color=3D3628" width="48%"/>
+<img src="https://streak-stats.demolab.com?user=sameerthedeveloper&theme=default&hide_border=true&background=F0E4DA&ring=C8825A&fire=C8825A&currStreakLabel=C8825A" width="48%"/>
 </p>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerthedeveloper&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerthedeveloper&layout=compact&theme=graywhite&hide_border=true&bg_color=F0E4DA&title_color=C8825A&text_color=3D3628" width="40%"/>
 </p>
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sameerthedeveloper&theme=react-dark&bg_color=0D1117&color=38BDF8&line=38BDF8&point=E2E8F0&hide_border=true" width="90%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sameerthedeveloper&bg_color=F0E4DA&color=C8825A&line=C8825A&point=3D3628&hide_border=true" width="90%"/>
 </p>
 <br/>
 
@@ -166,7 +166,7 @@ Quran reading & reference app
 Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily commits.
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0F172A&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8D4C4,100:F0E4DA&height=100&section=footer"/>
 <div align="center">
 <sub>Knowledge is amanah. Use it right.</sub>
 </div>
