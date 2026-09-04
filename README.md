@@ -1,104 +1,61 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=200&section=header&text=S.%20Mohamed%20Sameer&fontSize=42&fontColor=E2E8F0&fontAlignY=38&desc=Frontend-Focused%20Full%20Stack%20Developer&descAlignY=58&descSize=18&descColor=94A3B8&animation=fadeIn"/>
-<br/>
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=520&lines=React+%2B+Next.js+%E2%80%A2+Chennai%2C+India;Building+production+web+apps;Busy+in+being+Free" alt="Typing SVG" />
-</a>
-<br/><br/>
-<a href="https://md.sameer.dev"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=38BDF8" /></a>
-<a href="https://linkedin.com/in/mdsameers"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=38BDF8" /></a>
-<a href="https://github.com/sameerthedeveloper"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=38BDF8" /></a>
-</div>
-<br/>
+{/* PROFILE — from GitHub README, styled to match existing sections */}
+<section id="profile" className="flex min-h-svh scroll-mt-24 flex-col justify-center px-5 py-24 sm:px-8">
+  <div className="mx-auto grid max-w-wide gap-10 lg:grid-cols-[1fr_1.7fr] lg:gap-16">
+    <div className="lg:sticky lg:top-28 lg:self-start">
+      <SplitHeading
+        text="Right now."
+        className="text-4xl font-semibold tracking-tight text-ink sm:text-5xl"
+      />
+      <p className="reveal mt-4 max-w-xs text-muted">
+        BTech CSE (3rd yr) — shipping production web apps, React/Next.js frontend, Firebase/Supabase backend.
+      </p>
+    </div>
 
-## ⟡ About
-> BTech CSE (3rd yr) · shipping production web apps — React/Next.js frontend, Firebase/Supabase backend.
+    <div className="flex flex-col gap-10">
+      <ol className="border-t border-line">
+        {[
+          { label: 'Building', value: 'JARVIS — local voice assistant (Electron, Vosk, Ollama, Piper TTS)' },
+          { label: 'Learning', value: 'System design · DBMS internals · OS fundamentals' },
+          { label: 'Goal', value: 'Frontend/full-stack internship — remote / Chennai' },
+          { label: 'Approach', value: 'Halal-first in fintech & dev work' },
+        ].map((item, i) => (
+          <li key={item.label} className="reveal service-row group relative border-b border-line py-6">
+            <span className="service-row-bar pointer-events-none absolute -left-5 top-0 bottom-0 w-0.75 origin-center scale-y-0 bg-accent transition-transform duration-300 ease-out group-hover:scale-y-100 sm:-left-6" />
+            <div className="flex items-baseline gap-4 sm:gap-6">
+              <span className="font-mono text-sm text-faint transition-colors duration-300 group-hover:text-accent">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-lg font-medium text-ink transition-colors duration-300 group-hover:text-accent">
+                  {item.label}
+                </h3>
+                <p className="mt-1 text-[15px] text-muted">{item.value}</p>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
 
-```
-🔭  Building     JARVIS — local voice assistant (Electron, Vosk, Ollama, Piper TTS)
-📚  Learning     system design · DBMS internals · OS fundamentals
-🎯  Goal         frontend/full-stack internship — remote / Chennai
-🕌  Approach     halal-first in fintech & dev work
-```
-<br/>
+      <div className="reveal">
+        <p className="mb-4 text-sm text-muted">Stack</p>
+        <div className="flex flex-wrap gap-2">
+          {['HTML', 'CSS', 'JS', 'TS', 'React', 'Next.js', 'Tailwind', 'Firebase', 'Supabase', 'Python', 'FastAPI', 'Git'].map((tech) => (
+            <span
+              key={tech}
+              className="rounded-full border border-line px-3 py-1 text-xs font-medium text-muted transition-colors hover:border-accent hover:text-accent"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
 
-## ⟡ Stack
-<div align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,firebase,supabase,py,fastapi,git&theme=dark" />
-</div>
-<br/>
-
-## ⟡ Pinned Work
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[cinemafocus](https://github.com/sameerthedeveloper/cinemafocus)**
-Live client site — luxury hi-fi audio brand
-`JS` `Supabase` `GSAP`
-
-</td>
-<td width="50%" valign="top">
-
-**[FlowLite](https://github.com/sameerthedeveloper/FlowLite)**
-n8n/Zapier-style automation builder — APIs, AI, webhooks
-`JavaScript`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[project_classroom](https://github.com/sameerthedeveloper/project_classroom)**
-Offline LAN screen-share for classrooms, no internet needed
-`TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-**[OpenSecondDisplay](https://github.com/sameerthedeveloper/OpenSecondDisplay)**
-Stream macOS desktop to Linux over LAN — MIT licensed
-`Python` `FFmpeg`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[nawfalirfan](https://github.com/sameerthedeveloper/nawfalirfan)**
-E-commerce platform — FastAPI backend, vanilla JS frontend
-`FastAPI` `JS`
-
-</td>
-<td width="50%" valign="top">
-
-**[Quran-App](https://github.com/sameerthedeveloper/Quran-App)**
-Quran reading & reference app
-`JavaScript`
-
-</td>
-</tr>
-</table>
-<br/>
-
-## ⟡ GitHub Stats
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=sameerthedeveloper&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8&count_private=true" width="48%"/>
-<img src="https://streak-stats.demolab.com?user=sameerthedeveloper&theme=dark&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="48%"/>
-</p>
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerthedeveloper&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" width="40%"/>
-</p>
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sameerthedeveloper&theme=react-dark&bg_color=0D1117&color=38BDF8&line=38BDF8&point=E2E8F0&hide_border=true" width="90%"/>
-</p>
-<br/>
-
-## ⟡ Values
-Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily commits.
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0F172A&height=100&section=footer"/>
-<div align="center">
-<sub>Knowledge is amanah. Use it right.</sub>
-</div>
+      <div className="reveal">
+        <p className="text-sm text-muted">
+          Honest, clean code. Build useful things. Halal-first in fintech/dev work. Daily commits.
+        </p>
+        <p className="mt-2 text-xs text-faint">Knowledge is amanah. Use it right.</p>
+      </div>
+    </div>
+  </div>
+</section>
